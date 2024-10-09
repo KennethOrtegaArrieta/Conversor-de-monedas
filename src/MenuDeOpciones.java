@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class MenuDeOpciones {
@@ -39,9 +40,10 @@ public class MenuDeOpciones {
 
     // Muestra el resultado de la conversión
     public void MostrarConversion(double resultado, String fromCurrency, String toCurrency, double amount) {
+        DecimalFormat df=new DecimalFormat("#.00");
         System.out.println("-----------------");
         System.out.println("Conversión realizada:");
-        System.out.println(amount + " " + fromCurrency + " equivalen a " + resultado + " " + toCurrency);
+        System.out.printf("%.2f %s equivalen a %s %s%n", amount, fromCurrency, df.format(resultado), toCurrency);
         System.out.println("-----------------");
     }
 
