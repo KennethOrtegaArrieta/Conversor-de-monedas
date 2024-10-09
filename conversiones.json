@@ -1,23 +1,16 @@
 [
   {
     "fromCurrency": "ARS",
-    "toCurrency": "CRC",
-    "amount": 10000.0,
-    "result": 5316.828223624888,
-    "timestamp": "2024-10-08 20:55:19"
+    "toCurrency": "USD",
+    "amount": 8790.0,
+    "result": 9.006885810312323,
+    "timestamp": "2024-10-08 21:57:47"
   },
   {
     "fromCurrency": "USD",
-    "toCurrency": "BRL",
-    "amount": 1200.0,
-    "result": 6599.639999999999,
-    "timestamp": "2024-10-08 20:55:30"
-  },
-  {
-    "fromCurrency": "BOB",
-    "toCurrency": "CLP",
-    "amount": 9685.0,
-    "result": 1292527.7584565454,
-    "timestamp": "2024-10-08 20:55:45"
+    "toCurrency": "ARS",
+    "amount": 9.01,
+    "result": 8793.0392,
+    "timestamp": "2024-10-08 21:58:03"
   }
 ]
