@@ -5,6 +5,10 @@ monedas utilizando tasas de cambio obtenidas de una API. Los usuarios pueden sel
 la moneda de destino y la cantidad que desean convertir, y el programa mostrará el resultado de la conversión.
 La aplicacion forma parte del challenge del programa de Alura Latam.
 
+### Motivación
+La idea detrás de este proyecto es facilitar la conversión de divisas de manera rápida y sencilla, proporcionando 
+a los usuarios una herramienta útil para gestionar sus finanzas y realizar transacciones internacionales.
+
 ## Características
 - Conversión entre múltiples divisas.
 - Interfaz de línea de comandos fácil de usar.
@@ -44,9 +48,11 @@ Esta clase se encarga de manejar el historial de conversiones y generar un archi
 **Nota**: Asegúrate de reemplazar `API_KEY` con tu clave API real para que funcione correctamente.
 
 ## Instalación
-- Para utilizar este proyecto, necesitarás tener Java instalado en tu máquina.
-- IntelliJ IDEA Community Edition 2024.2.1 
-- Gson version 2.11.0
+-Para utilizar este proyecto, necesitarás tener Java instalado en tu máquina. Asegúrate de seguir estos pasos:
+1. **Instalar Java**: [Instrucciones de instalación de Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Configurar el entorno**: 
+   - **IntelliJ IDEA Community Edition**: Descárgalo [aquí](https://www.jetbrains.com/idea/download/).
+   - **Gson version 2.11.0**: Puedes agregarlo a tu proyecto mediante Maven o descargarlo manualmente.
 
 ## Uso
 - Ejecuta el programa y selecciona la moneda que posees.
@@ -80,4 +86,15 @@ Esta clase se encarga de manejar el historial de conversiones y generar un archi
 - amount: Monto que se ha convertido.
 - result: Resultado de la conversión.
 - timestamp: Fecha y hora en que se realizó la conversión.
+
+- gh repo clone KennethOrtegaArrieta/Conversor-de-monedas
+
+## Manejo de Errores
+El programa maneja entradas no válidas y problemas de conexión a la API, mostrando mensajes apropiados al usuario.
+
+## Contribuciones
+Si deseas contribuir, por favor clona el repositorio y envía un pull request con tus cambios.
+
+## Agradecimientos
+Gracias a Alura Latam por brindar esta oportunidad de aprendizaje.
 
